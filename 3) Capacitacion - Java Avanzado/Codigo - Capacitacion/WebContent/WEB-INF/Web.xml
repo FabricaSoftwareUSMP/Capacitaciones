@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--  SESIONES -->
+     
+<servlet-mapping>
+  <servlet-name>Servlet_Admin</servlet-name>
+  <url-pattern>/login.jsp</url-pattern>
+      
+	<session-config>
+	<session-timeout>1</session-timeout>
+	</session-config>  
+</servlet-mapping> 
